@@ -1,7 +1,7 @@
 package com.ammarsamater.translators;
 
 /**
- * This class provides static methods that translate the digits in a given
+ * This interface provides methods that translate the digits in a given
  * string from Latin to Arabic and vice-versa
  * 
  * @author Ammar Samater
@@ -11,7 +11,7 @@ public interface DigitTranslator {
 
 	/**
 	 * Translates any Latin digits in a string to the corresponding Arabic digits
-	 * The thousands separator(comma) is also translated
+	 * The thousands separator(comma) is also translated if it is between two Latin digits
 	 * 
 	 * @param latinNumber
 	 *            string with Latin digits
@@ -21,7 +21,7 @@ public interface DigitTranslator {
 
 	/**
 	 * Translates any Arabic digits in a string to the corresponding Latin digits
-	 * The thousands separator is also translated
+	 * The Arabic thousands separator is also translated if it is between two Arabic digits
 	 * 
 	 * @param arabicNumber
 	 *            string with Arabic digits
