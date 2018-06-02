@@ -1,2 +1,4 @@
 eclipse.preferences.version=1
+encoding//src/com/ammarsamater/translators/HashDigitTranslator.java=UTF-8
+encoding//test/com/ammarsamater/translators_test/HashDigitTranslatorTest.java=UTF-8
 encoding//test/com/ammarsamater/translators_test/OffsetDigitTranslatorTest.java=UTF-8

@@ -4,8 +4,19 @@
 	<groupId>DigitTranslator</groupId>
 	<artifactId>DigitTranslator</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
 	<name>DigitTranslator</name>
 	<description>Translates Latin digits to Arabic and vice versa</description>
+
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>
